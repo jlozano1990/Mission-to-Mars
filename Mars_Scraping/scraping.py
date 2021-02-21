@@ -24,8 +24,6 @@ def scrape_all():
 
     #Stop Webdriver and return data
     browser.quit()
-    print("@@@@@@@@@@@@@@@@@@@@@@@@@")
-    print(data["hemispheres"])
     return data
 
 def mars_news(browser):
